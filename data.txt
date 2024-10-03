@@ -1,0 +1,6 @@
+DATA -> Data is a collection of raw bits/bytes, unorganized facts and details like text, image, integer, etc
+Information -> It is a proccessed form of data that gives meaningful conclusion and makes the user enable for conclusive decision
+Database -> Database is an electronic place and system where the data is stored and can be accessed, managed and update.
+DBMS ->DBMS, i.e. Data Base Management System is a collection of interrelated data and set of programs to access those data.
+The primary goal of DBMS is to provide a way so that the data can be easily and efficiently accessed, managed and updated from database
+DBMS acts as an interface between the database and the user.
