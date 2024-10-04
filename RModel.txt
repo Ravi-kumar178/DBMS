@@ -1,0 +1,41 @@
+Relational Model -> It is a data model that describes the data in the form of relations/tables.
+In relational db, there is a multiple relations and where each relation has unique name.
+Tuple -> a single row of table .
+Column -> column represents the attributes of table.
+Relation Schema -> Relation Schema describes the name of relation, attribute/column name.
+Degree of table -> No. of column of a relation defines the degree of table.
+cardinality -> Total number of tuple of a given relation.
+
+Important properties of table ->
+a) Each table of a db has unique name.
+b) Each attribute of the table should be unique
+c) The value of the attribute has to be atomic.
+d) Table must follow the integrity constraints.
+
+Relational Model Key ->
+1)Super Key -> It is all the P&C of attribute of a relation so that each row can be identified uniquly
+2)Candidate Key -> It is the minimum subset of super key so that each tuple of a relation can be identified uniquly.
+3)Primary Key -> It is the minimum number of attribute that should be selected in order to uniquly identify each tuple. The Primary key is extracted from the candidate key.
+4)Foreign Key -> It is used to establish association among two relation. In most case the PK is used as a Fk . so the relation whose Primary key is used Refrenced(parent) relation and the other is called as Refrencing relation.
+
+Integrity Constraints ->
+The CRUD operation on DB must be done with some integrity policy so that the DB is always consistent.
+
+Domain Constraints -> 
+It restricts the value of the attribute by defining the domain of the attributes.
+It restricts the data type of the attributes by speicifying the data type of attribute
+
+Entity Constraints -> Every relation should have PK, i.e. PK != NULL.
+
+Refrential Constraints -> 
+It is specified between two relations and help to maintain consistancy among two tuples of two relations.
+On Insert Constraints -> You can't insert tuple into child relation if the data is not present into the parent relation.
+On Delete Constraints -> You can't delete the tuple of the parent relation if there is data present in the child relation.
+
+Key Constraints ->
+a)unique
+b)Not Null
+c)default
+d)Check
+e)Primary Key
+f)Foreign Key
