@@ -1,0 +1,41 @@
+Data Model -> It is a set of conceptual tool for describing data, data relations, data semantic,etc.
+ER Model -> ER Model, i.e. Entity-Relationship Model is a high level data model that is based on the perception of real world that is collection of real world object termed as entity and association among those entity.
+           Graphical representation of ER model is termed as ER diagram and acts as a blueprint of db.
+
+Entity -> It is a real world object that can be distinguished from all other object.
+       Two types of entity :- a) Strong entity b) Weak entity
+
+Entity set -> It is a set of entity consisting a same properties or attributes
+
+Attributes -> It is a properties associated with the entity to define the entity.
+           -> attributes will always have value.
+
+Types of attributes -> 
+a)Simple attributes -> The attributes which can't be divided further.
+b)Composite attributes -> The attributes which can be divided further.
+c)Single-valued attributes -> The attributes consisting single value. eg->aadhar number
+d)Multi valued attributes -> The attributes consisting multipe value.
+e)Derived attributes -> the attributes which is derived from another attributes. eg. age.
+f)Null attributes -> This is the attributes when the particular attributes do not consist any value.
+
+Relations -> Association among one or more entity.
+there are two types of relations -> 1)strong relations(between two strong entity) 2)weak relations(one weak entity must present)
+
+Degree of relations -> 1)unary -> when one entity is present.
+2)Binary -> when there is a relation between two entity.
+3)Tertiary -> when there is a relation among three entity.
+
+
+Specialization -> Specialization is a splitting up of a entity into two sub-entity on the basis of functionalities,properties,etc. The parent entity is termed as super class and the new entity formed is termed as sub-class.
+It is a top-down approach.
+It is done using is-a relation.
+Benefits -> It simplify the entity. refining of entity.
+
+Generalisation -> It is a reverse of Specialization. sometimes DB designer may encounter with a condition where two entity may have same properties there a generalised entity is created having the attributes which is common to both the entity and is considered as a parent entity. 
+It is a bottom-up approach.
+It is done using is-a relation.
+Benefits -> simplify the db designing abd refining of entity.
+
+Attribute Inheritance -> The attribute that is consisted by parent entity is inherited by the sub entity.
+
+Participation Inheritance -> If the parent entity goes in a relation with other entity then it's child entity also goes in relation with that entity.
