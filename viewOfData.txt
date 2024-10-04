@@ -1,0 +1,46 @@
+The major purpose of DBMS is to provide an abstract vie of data that is hide the certain details that is how the data is being stored and maintained in the database.
+Three Schema architecture :- 
+1) Physical Level / Internal Level
+2) Logical level / Conceptual Level
+3) External Level / View Level
+
+1) Physical Level ->
+  a) The lowest level of abstraction describes how the data is being stored in the database.
+  b) low level datastructure is used
+  c) It has a physical schema which describes the physical storage of db.
+
+2) Conceptual Level / Logical Level 
+  a) The conceptual schema describes the database design at the conceptual level that is it describes what kind of data is being stored in the database and what kind of relations is being exists among those data.
+  b) The user at Logical level doesn,t need to aware about the physical level.
+  c) DBA, Database Administrator which has the central control of the data uses logical level of abstraction.
+  d) Programmers write the query for logical level.
+
+3) View Level / External Level
+  a) The Highest level of abstraction is aimed to simplify the user's interaction with the system by providing the different view to different end users.
+  b) Each view schema describes a database that a particular user group is interested in and hides the remaining database part from that group.
+  c) At external level, the database contains several schema that sometimes called as sub-schema. The subschema is used to describe the different view of database.
+  d) The security mechanism on database is provided at view level from data breaching.
+
+Instance of Database -> It is the information stored in the databse at a paticular moment of time.
+
+Data Models -> It provides us a way to decribe the design of database at logical level. It provides us a tool to decribe the data, relations, constraints,etc.
+
+Schema -> It is the overall design of a databse at conceptual level. The schema is the structural description of data that is why the schema can't change frequently where as the data can change frequently.
+
+Database language -> 
+  a) DDL(Database Defining language) => It express the design of database at conceptual level.
+  b) DML(Database Manipulating Language) => It provides the query in order to access, update or do any kind of operation on database.
+
+DBA -> DBA, Database Administrator, which has central contract of both the data and the program that is accessing those data.
+
+DBMS architecture -> 3 architecture
+  a) T1 Architecture
+  b) T2 Architecture
+  c) T3 Architecture
+
+T1 Architecture -> In T1 Architecture, all the client , server and database run on same system.
+T2 Architecture -> In T2 Architecture, there is a two component.
+                  The client side contains both the application frontend and server and when there is a need of any data then client interacts with the databse with a certain query to perform any kind of action on or from that database.
+T3 Architecture -> In T3 Architecture, there is two component.
+                  The client side contains application frontend, that is the client can't communicate with the database directly , the app client send request to app server through network and app server interacts with database.
+                  It is most secure form of architeture and best for www .
